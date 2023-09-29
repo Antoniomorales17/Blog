@@ -1,0 +1,110 @@
+/* Agrega estos estilos a tu archivo de estilos CSS */
+
+.add {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .content {
+    flex: 2;
+    margin-right: 20px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .editorContainer {
+    border: 1px solid #ccc;
+  }
+  
+  /* Estilos para el editor de texto */
+  .ql-snow {
+    border: none;
+    border-top: 1px solid #ccc;
+    font-size: 16px;
+    padding: 10px;
+    height: 300px;
+  }
+  
+  .menu {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .item {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 20px;
+  }
+  
+  span {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  label[for="file"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Estilos para los radio buttons */
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label[for="art"],
+  label[for="technology"],
+  label[for="design"],
+  label[for="cinema"],
+  label[for="science"],
+  label[for="food"] {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="radio"]:checked + label {
+    background-color: #007bff;
+    color: #fff;
+  }
+  

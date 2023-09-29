@@ -1,0 +1,24 @@
+/* Estilos para el footer */
+footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff; /* Color del texto en el footer */
+    padding: 20px; /* Espaciado interno del footer */
+    text-align: center; /* Alineación del texto al centro */
+  }
+  
+  /* Estilos para el logotipo en el footer */
+  footer img {
+    max-width: 100px; /* Ancho máximo del logotipo */
+    margin-bottom: 10px; /* Espaciado inferior del logotipo */
+  }
+  
+  /* Estilos para el texto en el footer */
+  footer span {
+    font-size: 16px; /* Tamaño de fuente del texto */
+  }
+  
+  /* Estilos para el texto en negrita dentro del footer */
+  footer b {
+    font-weight: bold; /* Texto en negrita */
+  }
+  

@@ -1,0 +1,37 @@
+/* Estilos para el contenedor del navbar */
+.navbar {
+    background-color: #f4f7fa; /* Color de fondo del navbar */
+    color: #fff; /* Color del texto en el navbar */
+    padding: 10px 0; /* Espaciado interno */
+  }
+  
+  /* Estilos para el logo */
+  .logo img {
+    max-width: 100px; /* Ancho máximo del logo */
+  }
+  
+  /* Estilos para los enlaces en el navbar */
+  .links {
+    display: flex; /* Mostrar enlaces en línea */
+    justify-content: space-between; /* Espacio uniforme entre enlaces */
+    max-width: 600px; /* Ancho máximo para los enlaces */
+    margin: 0 auto; /* Centrar los enlaces horizontalmente */
+  }
+  
+  .link {
+    text-decoration: none; /* Eliminar subrayado en los enlaces */
+    color: #131212; /* Color del texto en los enlaces */
+    margin: 0 10px; /* Espaciado entre enlaces */
+    font-size: 16px; /* Tamaño de fuente de los enlaces */
+  }
+  
+  /* Estilos para el enlace "Write" */
+  .write {
+    font-weight: bold; /* Texto en negrita */
+  }
+  
+  /* Cambio de color al pasar el mouse sobre los enlaces */
+  .link:hover {
+    color: #0056b3; /* Cambia el color del texto al pasar el mouse */
+  }
+  
