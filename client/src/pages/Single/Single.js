@@ -3,7 +3,8 @@ import Edit from "../../img/edit.png";
 import Delete from "../../img/delete.png";
 import { Link } from "react-router-dom";
 import Menu from "../../components/Menu/Menu";
-import "./Single.css"; // Importa el archivo de estilos CSS
+
+
 
 const Single = () => {
   return (

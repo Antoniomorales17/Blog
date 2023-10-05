@@ -1,4 +1,7 @@
 import React from "react";
+import "./Menu.css";
+import { Link } from "react-router-dom";
+
 
 const Menu = () => {
 
@@ -36,7 +39,7 @@ const Menu = () => {
             <div className="post" key={post.id}>
               <img src={post.img} alt="" />
               <h2>{post.title}</h2>
-              <button>Leer más</button>
+              <Link to={`/post/${post.id}`}>Leer más</Link>
             </div>
           ))}
         </div>
